@@ -1,0 +1,5 @@
+path [Darling Coffee.ttf]		//The path to your font
+thickness [2]				//The thickness of the line of the character (default=2)
+spacing [4] 				//The spacing between the characters, (1=one block) (default=4)
+size [2]				//The size of the characters, if any letter appears to have lines with wrong rotation and scaling it's probably because of size set too low (default=2)
+smooth corners [True]			//If true adds a circle object in every point so that corners appears smoother, useful for curvy fonts however it doubles object count (default=True)
